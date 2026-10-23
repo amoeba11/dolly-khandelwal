@@ -129,7 +129,6 @@ section { padding: 36px 40px 70px; border-top: 1px solid var(--border); }
 
 /* PROJECTS */
 .project-list { display: flex; flex-direction: column; gap: 14px; }
-.project-list.more { margin-top: 14px; }
 .project-row {
   display: flex;
   align-items: flex-start;
