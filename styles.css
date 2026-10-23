@@ -41,13 +41,19 @@ nav {
 
 /* HERO / ABOUT */
 .hero { padding: 24px 40px 90px; }
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+.name-row h1 { margin: 0; }
 .headshot {
-  width: 96px;
-  height: 96px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
-  display: block;
+  flex-shrink: 0;
 }
 .pill {
   display: inline-block;
