@@ -53,20 +53,23 @@ nav {
 }
 .nav-icons { display: flex; gap: 10px; }
 .icon-badge {
-  width: 34px;
-  height: 34px;
-  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
   border: 1px solid var(--border);
+  background: var(--surface);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: var(--muted);
-  transition: border-color 0.15s ease, color 0.15s ease;
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
-.icon-badge:hover { border-color: var(--accent); color: var(--accent); }
+.icon-badge svg { width: 18px; height: 18px; }
+.icon-badge:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-md); }
 
 /* HOME HERO */
 .hero.home-hero { padding: 64px 40px 50px; text-align: center; display: flex; flex-direction: column; align-items: center; }
